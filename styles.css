@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    font-family: cursive;
+}
+.container{
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-inputs{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.add{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: green;
+}
+#empty{
+    color: red;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 25px;
+    display: none;
+}
+
+.input,.search{
+    padding:0.6rem;
+    border-radius: 10px;
+}
+.todos{
+    width: 40%;
+  margin: 30px auto;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: cursive;
+    color: #000;
+}
+
+.fa-solid{
+    color: red;
+}
+.todo-items{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+   padding: 0.5rem;
+   cursor: pointer;
+   margin-bottom: 0.6rem;
+border-radius: 10px;
+
+}
+
+.search-div{
+    align-self: center;
+}
+.filtered{
+    display: none !important;
+}
+
